@@ -5,6 +5,7 @@ export const CartSlice = createSlice({
   initialState: {
     items: [], // Initialize items as an empty array
   },
+
   reducers: {
     addItem: (state, action) => {
     
@@ -17,6 +18,7 @@ export const CartSlice = createSlice({
     },
   },
 });
+
 
 export const { addItem, removeItem, updateQuantity } = CartSlice.actions;
 
